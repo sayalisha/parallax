@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css"
+	href="css/slip.css">
+<script type="text/javascript"
+	src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript"
+	src="js/slipScroll.js"></script>
+<script type="text/javascript"
+	src="js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="css/bootstrap.min.css">
+
+
+<title>Parallax</title>
+</head>
+<body>
+	<div class="container">
+		<div class="col-sm-12">
+			<div class="col-sm-2 dark">
+				<div class=container_scroll>
+					<img src="images/bar_chart.png"
+						class="default">
+				</div>
+			</div>
+			<div class="col-sm-10">
+				<p class="default info_text">
+				In this, 6 divs with 5 different colors are implemented. It has 6 different images. Keeping first div fixed, we make all other divs position as absolute.
+				Using JQuery when we scroll, onScroll event is handled. It sets Top for the next div, using current divs coordinates
+				<br><br>Formula used is : 
+				New div top = base div top - current div top;<br> 
+				It means it calculates by how much is the topmost div scrolled and adds that to the new div.
+				Hence we see all divs are connected. 
+				</p>
+			</div>
+		</div>
+
+		<div class="col-sm-12">
+			<div class="col-sm-2 red">
+				<div class="container_scroll">
+					<img src="images/bar_chart.png"
+						class="moveable">
+				</div>
+			</div>
+			<div class="col-sm-10 transparent"></div>
+		</div>
+
+		<div class="col-sm-12">
+			<div class="col-sm-2 green">
+				<div class="container_scroll">
+					<img src="images/bar_chart_black.png"
+						class="moveable">
+				</div>
+			</div>
+			<div class="col-sm-10 transparent"></div>
+		</div>
+		<div class="col-sm-12">
+			<div class="col-sm-2 yellow">
+				<div class="container_scroll">
+					<img src="images/bar_chart_black.png"
+						class="moveable">
+				</div>
+			</div>
+			<div class="col-sm-10 transparent"></div>
+		</div>
+		<div class="col-sm-12">
+			<div class="col-sm-2 blue">
+				<div class="container_scroll">
+					<img src="images/bar_chart.png"
+						class="moveable">
+				</div>
+			</div>
+			<div class="col-sm-10 transparent"></div>
+		</div>
+		<div class="col-sm-12">
+			<div class="col-sm-2 light">
+				<div class="container_scroll">
+					<img src="images/bar_chart_black.png"
+						class="moveable">
+				</div>
+			</div>
+			<div class="col-sm-10 transparent"></div>
+		</div>
+	</div>
+</body>
+</html>

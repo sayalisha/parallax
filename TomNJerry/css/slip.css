@@ -1,0 +1,83 @@
+.container_scroll {
+  overflow: hidden;
+  position: relative;
+  min-height: 1000px;
+}
+.dark {
+  background: #000;
+}
+.red {
+  background: #f00;
+}
+
+.green {
+  background: #0f0;
+}
+
+.blue {
+  background: #00f;
+}
+
+.light {
+  background: #fff;
+}
+
+.yellow {
+  background: #ff0;
+}
+
+.margin_5{
+	margin: 5%;
+}
+
+.margin_side_5{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.margin_right_30{
+	right: 30px;
+}
+
+.info_text{
+	color: #b03060;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+  	font-size: 20px;
+}
+.default {
+  position: fixed;
+}
+ 
+.moveable {
+  position: absolute;
+}
+.transparent{
+	opacity: 0.0;
+}
+
+.right_end
+{
+    position: fixed; /*or fixed*/
+    right: 20px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.current_page_nav{
+background-image: url("../images/cheese-icon.png");
+}
+
+#slide1{
+    color: #fff;    
+	background-size: cover;
+}
+
+#hanna_barbara
+{
+	background-image: url("../images/tom-and-jerry-back.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+}
